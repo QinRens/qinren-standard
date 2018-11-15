@@ -20,6 +20,11 @@ This repo contains the code, documents, project standard for QinRen group.
 
     http://qinren.tech/recuitment/index.html
 
+## Welcome to contact us!
+
++ E-mail:
+
+    qinren_tech@163.com
 
 
 
