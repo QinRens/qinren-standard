@@ -1,5 +1,7 @@
 
-### Virtual Environment:
+### 1. Virtual Environment:
+
+@ydup
 
 Install the virtual environment: 
 
@@ -31,12 +33,11 @@ Install packages from requirements.txt
 $ pip install -r requirements.txt
 ```
 
-### Comments:
+### 2. Comments:
 
-#### + File Top Doc String
+@ydup
 
-Template: 
-CLASS
+#### 2.1 File Top Doc String
 
 ```
 '''
@@ -78,7 +79,7 @@ TODO:
 
 ```
 
-#### + Function Doc String
+#### 2.2 Function Doc String
 
 Template:
 
@@ -102,3 +103,49 @@ def template(inputParam_1, inputParam_2):
     return outputParam
 
 ```
+
+### 3. Python Module
+
+@yuxuansui
+
+There are some rules for module imports
+
+1. Imports should usually be on separate lines:
+
+        Yes:  import os
+              import sys
+        No:   import os, sys
+   but it's ok to say this though:
+        
+        Yes:  from subprocess import Popen, PIPE
+        
+2. Imports should be grouped in the following order:
+
+    1. standard library imports
+    
+    2. related third party imports
+    
+    3. local application/library specific imports
+    
+            import sys
+            import os
+        
+            import matplotlib
+            from matplotlib import pyplot as plt
+    
+            import DCW
+            from DCW import EDA
+        
+3. Absolute imports are recommended, as they are usually more readable and tend to be better behaved (or at least give better error messages) if the import system is incorrectly configured (such as when a directory inside a package ends up on sys.path):
+
+
+        Yes: import mypkg.sibling
+             from mypkg import sibling
+             from mypkg.sibling import example
+        
+        No:  from . import sibling
+             from .sibling import example
+             
+4. Wildcard imports (from <module> import *) should be avoided, as they make it unclear which names are present in the namespace, confusing both readers and many automated tools. There is one defensible use case for a wildcard import, which is to republish an internal interface as part of a public API (for example, overwriting a pure Python implementation of an interface with the definitions from an optional accelerator module and exactly which definitions will be overwritten isn't known in advance).
+
+
