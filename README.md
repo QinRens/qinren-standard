@@ -10,7 +10,7 @@ This repo contains the code, documents, project standard for QinRen group.
 
 ### 1.1 [Python](code/python/README.md)
 ### 1.2 [MATLAB](code/matlab/README.md)
-### 1.3 [Shell](code/matlab/REAMDE.md)
+### 1.3 [Shell](code/shell/README.md)
 
 ## 2. Project Management
 + Project Structure
