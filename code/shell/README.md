@@ -1,5 +1,7 @@
 # Shell
 
+@ydup
+
 ## 1. Basic Command
 
 1.Log in server
