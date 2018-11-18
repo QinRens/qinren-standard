@@ -137,7 +137,7 @@ def memory_monitor():
 ### 4.1.4 查看不同变量类型的增长情况以及调用结构
 
 为了进一步查找导致内存溢出的增长源，采用python的gc模块对程序运行过程中的不同变量类型的增长情况以及调用结构进行分析。代码如下：
-```
+```python
 import objgraph
 objgraph.show_growth()  # show the growth of the objects
 objgraph.show_refs(variableName, filename='graph.png')  # show the reference structure of the variable

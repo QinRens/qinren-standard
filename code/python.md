@@ -5,31 +5,31 @@
 
 Install the virtual environment: 
 
-```
+```shell
 $ pip install virtualenv
 ```
 
 Activate the environment:
 
-```
+```shell
 $ source venv/bin/activate
 ```
 
 Deactive the environment:
 
-```
+```shell
 $ deactive
 ```
 
 Create the requirements.txt:
 
-```
+```shell
 $ pip freeze -l > requirements.txt
 ```
 
 Install packages from requirements.txt
 
-```
+```shell
 $ pip install -r requirements.txt
 ```
 
@@ -83,7 +83,7 @@ TODO:
 
 Template:
 
-```
+```python
 def template(inputParam_1, inputParam_2):
     '''
     Function description

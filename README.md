@@ -8,15 +8,17 @@ This repo contains the code, documents, project standard for QinRen group.
 + Code style
 + Code document
 
-### 1.1 [Python](code/python/README.md)
-### 1.2 [MATLAB](code/matlab/README.md)
-### 1.3 [Shell](code/shell/README.md)
+### 1.1 [Python](code/python.md)
+### 1.2 [MATLAB](code/matlab.md)
+### 1.3 [Shell](code/shell.md)
 
 ## 2. Project Management
 + Project Structure
 + Project document
 
 ### 2.1 Python
+#### 2.1.1 [Python Crawler](projectManagement/pythonCrawler.md)
+#### 2.1.2 [Tensorflow](projectManagement/tensorflow.md)
 ### 2.2 MATLAB
 ### 2.3 Simulink
 ### 2.4 Flask, html / CSS / JavaScript
